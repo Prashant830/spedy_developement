@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Spedy",
+    "slug": "Spedy",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon2.png",
+    "userInterfaceStyle": "light",
+
+    "splash": {
+      "backgroundColor": "#f5220f",
+      "resizeMode": "cover"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "infoPlist": {
+        "bundleIdentifier":"com.spedy.store",
+      "supportsTablet": true
+      }
+      
+    },
+    "android": {
+      "backgroundColor": "#fff",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon2.png",
+        "backgroundColor": "#f5220f"
+      },
+      "package": "com.spedy.store"
+    },
+    "web": {
+      "favicon": "./assets/images/Logo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b6115859-2e97-4c8a-894a-f404a95418f6"
+      }
+    }
+  }
+}
